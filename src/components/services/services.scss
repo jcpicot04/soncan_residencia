@@ -1,0 +1,36 @@
+.services{
+    padding-top: 5vh;
+    background: whitesmoke;
+    h1{
+        text-align: center;
+        margin: 0%;
+        font-size: 4ch;
+    }
+}
+
+.service-img{
+    width: 40vw;
+}
+
+.service-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8vh;
+}
+
+.service-description{
+    padding: 5vw;
+    font-size: 2ch;
+}
+
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+    padding: 15vh;
+
+    h3{
+        line-height: 10vh;       /* The same as your div height */
+    }
+}

@@ -1,0 +1,22 @@
+.installations{
+    background: whitesmoke;
+    text-align: center;
+    padding-top:10ch;
+    h1{
+        margin: 0;
+    }
+    h3{
+        padding-bottom: 3ch;
+    }
+
+    .installations-img{
+        width: 45vw;
+        padding: 1ch;
+    }
+
+    &__images{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
