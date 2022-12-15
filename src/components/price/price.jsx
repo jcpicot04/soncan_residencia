@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 
 const Price = () => {
   require('./price.scss');
@@ -15,7 +16,7 @@ const Price = () => {
           <li class="pricing-features-item">Amplios espacios</li>
         </ul>
         <span class="pricing-price">16€/noche</span>
-        <a href="#/" class="pricing-button">Saber más</a>
+        <Link spy={true} smooth={true} offset={-70} duration={500} to="contact_container"><a href="#/" class="pricing-button">Saber más</a></Link>
       </div>
       
       <div class="pricing-plan">
@@ -26,7 +27,7 @@ const Price = () => {
           <li class="pricing-features-item">Variedad de cuidados</li>
         </ul>
         <span class="pricing-price">Consultar</span>
-        <a href="#/" class="pricing-button">Saber más</a>
+        <Link spy={true} smooth={true} offset={-70} duration={500} to="contact_container"><a href="#/" class="pricing-button">Saber más</a></Link>
       </div>
       
       <div class="pricing-plan">
@@ -37,7 +38,7 @@ const Price = () => {
           <li class="pricing-features-item">Primer viaje gratuito</li>
         </ul>
         <span class="pricing-price">1€/km</span>
-        <a href="#/" class="pricing-button">Saber más</a>
+        <Link spy={true} smooth={true} offset={-70} duration={500} to="contact_container"><a href="#/" class="pricing-button">Saber más</a></Link>
       </div>
       
     </div>
