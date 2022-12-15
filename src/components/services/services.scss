@@ -34,3 +34,26 @@
         line-height: 10vh;       /* The same as your div height */
     }
 }
+
+@media (max-width: 1280px) {
+    .service-img{
+        width: 40vw;
+        height: 40vh;
+    }
+    .service-text{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5vh;
+    }
+
+    .service-text.left{
+        padding-left: 5vw;
+    }
+
+    .service-text.right{
+        padding-right: 5vw;
+    }
+    .service-description{
+        padding: 2vw;
+    }
+  }

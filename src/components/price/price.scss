@@ -27,7 +27,7 @@
   
   .container {
     margin: 0 auto;
-    padding: 50px 0 0;
+    padding: 50px 25px 0 0;
     max-width: 960px;
     width: 100%;
   }
@@ -142,3 +142,21 @@
   .pricing-button.is-featured:active {
     background-color: #945886;
   }
+
+@media (max-width: 2800px) {
+  .container {
+    margin: 0 auto;
+    padding: 50px 75px 0px 0px;
+    max-width: 960px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 3000px) {
+  .container {
+    margin: 0 auto;
+    padding: 50px 75px 0px 0px;
+    max-width: 960px;
+    width: 100%;
+  }
+}
