@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Navbar,Home,Description,Services,Price,Installations,Contact } from './components';
+import { Navbar,Home,Description,Services,Price,Installations,Contact,Footer } from './components';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Price/>
       <Installations/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

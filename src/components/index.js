@@ -5,5 +5,6 @@ import Services from "./services/services";
 import Price from "./price/price";
 import Installations from "./installations/installations";
 import Contact from "./contact/contact";
+import Footer from "./footer/footer";
 
-export {Navbar,Home,Description,Services,Price,Installations,Contact};
+export {Navbar,Home,Description,Services,Price,Installations,Contact,Footer};
