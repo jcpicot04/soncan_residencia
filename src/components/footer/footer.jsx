@@ -17,7 +17,7 @@ const Footer = () => {
 </section>
 <section>
 <span><i class="fa fa-envelope"></i></span>
-<span>soncan@gmail.com</span>
+<span>soncanresidencia@gmail.com</span>
 </section>
 </div>
 <span class="border-shape"></span>
