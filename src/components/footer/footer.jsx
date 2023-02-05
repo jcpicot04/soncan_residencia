@@ -38,7 +38,7 @@ const Footer = () => {
 </section>
 </div>
 <div class="copyright">
-Copyright © 2022 SONCAN - Todos los derechos reservados
+Copyright © 2023 SONCAN - Todos los derechos reservados
 </div>
 </footer>
   )

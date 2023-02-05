@@ -15,7 +15,7 @@ const Price = () => {
           <li class="pricing-features-item">Tarifa más barata</li>
           <li class="pricing-features-item">Amplios espacios</li>
         </ul>
-        <span class="pricing-price">16€/noche</span>
+        <span class="pricing-price">15€/noche</span>
         <Link spy={true} smooth={true} offset={-70} duration={500} to="contact_container"><a href="#/" class="pricing-button">Saber más</a></Link>
       </div>
       
